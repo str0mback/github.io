@@ -1,0 +1,102 @@
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+<header class="bg-white shadow">
+<div class="container mx-auto px-6 py-4">
+<div class="md:flex md:items-center md:justify-between">
+<div class="flex items-center justify-between">
+<div class="text-xl font-semibold text-gray-800">
+<a href="#">Str0mback</a>
+</div>
+</div>
+</div>
+</div>
+</header>
+<section class="bg-cover bg-center" style="background-image: url('https://via.placeholder.com/1920x1080?text=Hero+Image')" id="hero">
+<div class="container mx-auto px-6 py-24 text-center">
+<h1 class="text-5xl md:text-6xl font-bold text-gray-800 mb-6">Welcome to Str0mback</h1>
+<p class="text-xl text-gray-800 mb-12">We provide the best services and products for you</p>
+<button class="btn btn-primary">Learn More</button>
+</div>
+</section>
+<section class="bg-white py-8">
+<div class="container mx-auto px-6">
+<h2 class="text-3xl text-center text-gray-800 font-semibold mb-6">Features</h2>
+<div class="flex flex-wrap">
+<div class="w-full md:w-1/3 p-6 flex flex-col">
+<div class="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
+<div class="p-8 text-3xl font-bold text-center border-b-4">Service 1</div>
+<ul class="w-full text-center text-sm">
+<li class="border-b py-4">Feature 1</li>
+<li class="border-b py-4">Feature 2</li>
+<li class="border-b py-4">Feature 3</li>
+</ul>
+</div>
+<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+<div class="flex items-center justify-start">
+<button class="btn btn-primary">Learn More</button>
+</div>
+</div>
+</div>
+<div class="w-full md:w-1/3 p-6 flex flex-col">
+<div class="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
+<div class="p-8 text-3xl font-bold text-center border-b-4">Service 2</div>
+<ul class="w-full text-center text-sm">
+<li class="border-b py-4">Feature 1</li>
+<li class="border-b py-4">Feature 2</li>
+<li class="border-b py-4">Feature 3</li>
+</ul>
+</div>
+<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+<div class="flex items-center justify-start">
+<button class="btn btn-primary">Learn More</button>
+</div>
+</div>
+</div>
+<div class="w-full md:w-1/3 p-6 flex flex-col">
+<div class="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
+<div class="p-8 text-3xl font-bold text-center border-b-4">Service 3</div>
+<ul class="w-full text-center text-sm">
+<li class="border-b py-4">Feature 1</li>
+<li class="border-b py-4">Feature 2</li>
+<li class="border-b py-4">Feature 3</li>
+</ul>
+</div>
+<div class="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
+<div class="flex items-center justify-start">
+<button class="btn btn-primary">Learn More</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<footer class="bg-gray-800 text-white">
+<div class="container mx-auto px-6 py-4">
+<div class="md:flex md:items-center md:justify-between">
+<div class="flex items-center justify-between">
+<div class="text-xl font-semibold text-gray-800">
+<a href="#">Str0mback</a>
+</div>
+</div>
+</div>
+<div class="mt-4 md:mt-0">
+<p class="text-center text-sm text-gray-500">
+Copyright © 2022 Str0mback. All rights reserved.
+</p>
+</div>
+</div>
+</footer>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+var hero = document.getElementById("hero");
+var heroHeight = hero.offsetHeight;
+window.addEventListener("scroll", function() {
+var scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+if (scrollTop > heroHeight) {
+hero.classList.add("bg-gray-900");
+} else {
+hero.classList.remove("bg-gray-900");
+}
+});
+});
+</script>
+</body>
